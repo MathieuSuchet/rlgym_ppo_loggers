@@ -1,0 +1,6 @@
+{
+  "name": "rlgym_ppo_loggers",
+  "version": "1.0.0",
+  "description": "A group of loggers to use with rlgym_ppo",
+  "author": "CryyStall"
+}
