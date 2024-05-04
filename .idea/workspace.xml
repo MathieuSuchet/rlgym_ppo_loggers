@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e75cbe-48d1-450d-b3bb-23584dae83bf" name="Changes" comment="Adding player loggers">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/all_loggers_charge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_0.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_1.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_10.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_11.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_12.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_13.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_14.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_15.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_2.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_3.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_4.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_5.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_6.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_7.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_8.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/charge_tests/collision_meshes/soccar/mesh_9.cmf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/player_loggers_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rlgym_ppo_loggers/player_loggers.py" beforeDir="false" afterPath="$PROJECT_DIR$/rlgym_ppo_loggers/player_loggers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -22,9 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2frss1jEx2MqYemcOOAoXL64L5T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,16 +53,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in player_loggers_tests.py.executor": "Debug",
+    "Python tests.Unittests in player_loggers_tests.py.executor": "Run",
+    "Python.all_loggers_charge.executor": "Run",
+    "Python.player_loggers.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/msuch/PycharmProjects/rlgym_ppo_loggers/rlgym_ppo_loggers"
+    "last_opened_file_path": "C:/Users/msuch/PycharmProjects/rlgym_ppo_loggers/tests/charge_tests"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\msuch\PycharmProjects\rlgym_ppo_loggers\tests\charge_tests" />
+      <recent name="C:\Users\msuch\PycharmProjects\rlgym_ppo_loggers\tests" />
       <recent name="C:\Users\msuch\PycharmProjects\rlgym_ppo_loggers\rlgym_ppo_loggers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\msuch\PycharmProjects\rlgym_ppo_loggers\tests\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests in player_loggers_tests.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="rlgym_ppo_loggers" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\msuch\PycharmProjects\rlgym_ppo_loggers\.venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (rlgym_ppo_loggers)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/player_loggers_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,12 +132,27 @@
       <option name="project" value="LOCAL" />
       <updated>1714571432976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding player loggers">
+      <option name="closed" value="true" />
+      <created>1714571463462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714571463462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding player loggers" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding player loggers" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="game_state.ball" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

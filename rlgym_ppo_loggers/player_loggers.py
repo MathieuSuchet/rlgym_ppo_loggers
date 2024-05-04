@@ -122,7 +122,13 @@ class PlayerFlipTimeLogger(WandbMetricsLogger):
         return ["stats/player/avg_flip_time"]
 
     def get_data_for(self, car_id: int, game_state: GameState):
-        return self.time_between_jump_and_flip[car_id]
+        car = WandbMetricsLogger._get_player_data(car_id, game_state)
+
+        if car.has_flip and not car.has_jump:
+            self.time_between_jump_and_flip[car.car_id] += 1
+        else:
+            self.time_between_jump_and_flip[car.car_id] = 0
+        return self.time_between_jump_and_flip[car.car_id]
 
     def _collect_metrics(self, game_state: GameState) -> np.ndarray:
         times = np.zeros((len(game_state.players),))
@@ -131,11 +137,7 @@ class PlayerFlipTimeLogger(WandbMetricsLogger):
                 self.time_between_jump_and_flip.setdefault(agent.car_id, 0)
 
         for i, car in enumerate(game_state.players):
-            if car.has_flip and not car.has_jump:
-                self.time_between_jump_and_flip[car.car_id] += 1
-            else:
-                times[i] = self.time_between_jump_and_flip[car.car_id]
-                self.time_between_jump_and_flip[car.car_id] = 0
+            times[i] = self.get_data_for(car.car_id, game_state)
 
         times = times[np.nonzero(times)]
         if times.size == 0:
